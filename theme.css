@@ -12,11 +12,9 @@ body {
     overflow: hidden;
     overflow-y: auto;
 }
-.tab-wrapper{
-
-}
 .tab-wrapper .tab-inner{
     display: flex;
+    flex-wrap: wrap;
 
 }
 .tab-wrapper .tab-col{
@@ -78,4 +76,17 @@ body {
     padding-left: 0.5rem;
     transition: 0.5s linear all;
     
+}
+
+
+@media (max-width: 992px) {
+    .tab-wrapper .left-col{
+        width: 100%;
+      
+    
+    }
+    .tab-wrapper .right-col{
+        width:100%;
+    }
+
 }
